@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+  div {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 4s;
+    transform: scale(2) rotate(20deg);
+  }
+  div img { 
+    position: absolute;
+    top: 0;
+    left: 0; 
+  }
+  img:hover{
+  filter: blur(50px);
+  }
